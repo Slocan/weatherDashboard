@@ -1,6 +1,6 @@
 # Local Weather Dashboard
 
-Code repository for custom weather dashboard in Grafana, using data from a Ecowitt GW1000 gateway
+Code repository for custom weather dashboard in Grafana, using data from a Ecowitt GW1000 gateway. A second dashboard uses data from soil moisture sensors WH51 to determine the last time plans were watered.
 
 ![Local Weather Dashboard](/Screenshot-Grafana.png?raw=true "Grafana Screenshot")
 ![Watering Dashboard](/Screenshot_Grafana_Watering.png?raw=true "Grafana Screenshot")
@@ -17,8 +17,8 @@ Recommended:
 
 ## Installation
 
-- Copy the .conf files from the telegraf folder to:
-/etc/telegraf/telegraf.d/
+- Copy the .conf files from the telegraf folder to:\
+/etc/telegraf/telegraf.d/\
 After restarting telegraf, it will listen on port 7080 to receive the data from the gateway. Review your network to allow traffic to this port from the gateway.
 
 - In grafana, Import the json from the grafana folder as a new dashboard
