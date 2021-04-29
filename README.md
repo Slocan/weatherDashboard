@@ -1,6 +1,6 @@
 # Local Weather Dashboard
 
-Code repository for custom weather dashboard in Grafana, using data from a Ecowitt GW1000 gateway. A second dashboard uses data from soil moisture sensors WH51 to determine the last time plans were watered.
+Code repository for custom weather dashboard in Grafana, using data from a Ecowitt GW1000 gateway. A second dashboard uses data from soil moisture sensors WH51 to determine the last time plants were watered.
 
 ![Local Weather Dashboard](/Screenshot-Grafana.png?raw=true "Grafana Screenshot")
 ![Watering Dashboard](/Screenshot_Grafana_Watering.png?raw=true "Grafana Screenshot")
